@@ -29,6 +29,6 @@ select.onchange = function(){
 
 function eliminar(param){        
    if(param.item(1) != ""){
-       param.remove(param.remove(param.item(1)));
+       param.remove(param.item(1));
    }
 }
