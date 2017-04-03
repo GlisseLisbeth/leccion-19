@@ -1,5 +1,7 @@
 body{
     margin: 10px 100px;
+    display: block;
+    text-align: center;
 }
 .animal{
     width: 300px;
@@ -21,4 +23,3 @@ body{
     filter: sepia(1);
     -webkit-filter: sepia(1);
 }
-
